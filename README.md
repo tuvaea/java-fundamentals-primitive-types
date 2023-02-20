@@ -1,10 +1,54 @@
-# Java Exercise Template
+# Java Primitive Data Types
 
-This template contains a `Sample` class and a `SampleTest` class. When making changes, ensure you change the project
-name in the [settings.gradle](./settings.gradle) file.
+In Java, there are two categories of data types:
+1. **Primitive types** for storing simple values like numbers, strings and booleans.
+2. **Reference types** for storing complex objects. We'll get to these later in the course.
 
 ## Learning Objectives
-- Sample learning objective
+- Explain what primitive data types are
+- Build a simple Java program using primitive data types
+- Build a simple Java program using strings
+
+## Primitive Types
+
+| Data Type | Examples                             | Purpose                                                                                      |
+|-----------|--------------------------------------|----------------------------------------------------------------------------------------------|
+| boolean   | `true`, `false`                      | Answer yes or no questions                                                                   |
+| byte      | `-128`, `0`, `20`, `127`             | Store whole numbers from -128 to 127                                                         |
+| short     | `-32768`, `0`, `20`, `32767`         | Store whole numbers from -32768 to 32767                                                     |
+| int       | `-2Billion`, `0`, `20`, `2Billion`   | Store whole numbers from -2147483648 to 2147483647                                           |
+| long      | `-2L`, `0L`, `20L`, `2L`             | Store whole numbers from -9223372036854775808 to 9223372036854775808                         |
+| float     | `-5.91f`, `0.29f`, `2.19f`, `5.67f`  | Store fractional numbers from 3.4e−038 to 3.4e+038                                           |
+| double    | `-19.99d`, `0.29d`, `2.19d`, `5.67d` | Store fractional numbers from 1.7e−308 to 1.7e+308. They have double the precision of floats |
+| char      | `'A', 'B', 'C'`                      | Store a single character                                                                     |
+
+```java
+boolean myBool = true;
+byte myByte = 23;
+short myShort = 5000;
+int myInt = 100000;
+long myLong = 15000000000L; // Longs must have an L at the end of the number
+float myFloat = 5.12f; // Floats must have an f at the end
+double myDouble = 19.99d; // Doubles must end with a d
+char myChar = 'F'; // Chars must use single quotes
+```
+
+As well as the above primitive types, there is also a reference type that we'll need to get comfortable with early on: `String`. Don't worry about what a reference type is right now, we can use strings in the same way we use the primitive types above but the first letter of the data type is capitalised. E.g.
+
+```java
+String myString = "Hello, world!"; // Strings must use double quotes
+// Strings are used to store a collection of characters
+```
+
+There are a number of useful functions we use often with strings, for example:
+
+```java
+String name = "Nathan";
+int length = name.length(); // 6
+String upper = name.toUpperCase(); // "NATHAN"
+```
+
+Here's a useful reference guide: https://www.w3schools.com/java/java_ref_string.asp
 
 ## Set up instructions
 - Fork this repository and clone the forked version to your machine
