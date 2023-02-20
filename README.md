@@ -56,6 +56,8 @@ Here's a useful reference guide: https://www.w3schools.com/java/java_ref_string.
 - Implement the requirements listed in comments in the `./src/main/java/com.booleanuk/Exercise.java` file
 - When ready to test your solution, open the `./src/test/java/com.booleanuk/ExerciseTest.java` file and click a "Run Test" button. You can either run the entire test suite via figure 1 in the screenshot below, or run a specific test via figure 2.
 
+**Note:** Some of the requirements in this exercise may require you to use documentation to figure out the correct solution. When that is the case, links have been provided. Get used to this! A big part of our process is reading documentation to try and find useful information.
+
 ![](./assets/run-a-test.PNG)
 
 ## Test Output
