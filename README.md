@@ -60,6 +60,36 @@ Here's a useful reference guide: https://www.w3schools.com/java/java_ref_string.
 
 ![](./assets/run-a-test.PNG)
 
+## Extensions
+
+Create some Java classes that could represent any real world object. Start with the sample list below which gets increasingly more difficult, and then think of some of your own.
+
+1. Book (example)
+```java
+public class Book {
+    public String title = "A Game of Thrones";
+    public int publishYear = 1996;
+    public float price = 11.99f;
+    public String isbn = "0-00-224584-1";
+    public String author = "George R. R. Martin";
+}
+```
+
+2. Car
+    - Make, model, transmission type, number of doors, engine litres, engine type, colour, registration
+
+3. Movie
+
+4. Computer
+
+5. Social media post
+
+6. User
+
+7. E-commerce product
+
+8. E-commerce order
+
 ## Test Output
 
 When you run a test, it's either going to pass or fail. When it fails, you'll be presented with a big red stream of text. This is called a stack trace and, though intimidating, does contain some useful information.
