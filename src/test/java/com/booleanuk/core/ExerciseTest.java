@@ -74,4 +74,9 @@ class ExerciseTest {
     public void thirteenShouldBe26() {
         Assertions.assertEquals(26, this.exercise.alphabetLength);
     }
+
+    @Test
+    public void fourteenShouldBe7() {
+        Assertions.assertEquals(7, this.exercise.remainder);
+    }
 }
