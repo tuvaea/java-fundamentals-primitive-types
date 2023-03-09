@@ -1,5 +1,5 @@
 package com.booleanuk.core;
-
+import com.booleanuk.helpers.ExerciseBase;
 
 public class Exercise extends ExerciseBase {
     public int numOne = 8;
