@@ -1,6 +1,7 @@
 package com.booleanuk.core;
 
-public class Exercise {
+
+public class Exercise extends ExerciseBase {
     public int numOne = 8;
     public int numTwo = 16;
     public int numThree = 32;
