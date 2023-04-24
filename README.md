@@ -48,7 +48,9 @@ int length = name.length(); // 6
 String upper = name.toUpperCase(); // "NATHAN"
 ```
 
-Here's a useful reference guide: https://www.w3schools.com/java/java_ref_string.asp
+Here's some useful reference guides: 
+- https://www.w3schools.com/java/java_ref_string.asp 
+- https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/lang/String.html#method-summary
 
 ## Set up instructions
 - Fork this repository and clone the forked version to your machine
